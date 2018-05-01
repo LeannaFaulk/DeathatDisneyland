@@ -1,0 +1,94 @@
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding: 2em;
+	border: 5px solid #3D3D4A;
+	border-style: double;
+	background-color: rgba(252, 225, 252, 0.8); 
+}
+body{
+	background-image: url(disneylandcur.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'IM Fell English', serif;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: center;
+	font-family: Garamond;
+	font-size: 30px;
+}
+
+h3{
+	font-family: 'IM Fell English', serif;
+	text-decoration: underline;
+	font-size: 23px;
+}
+
+h4 {
+	font-family: 'IM Fell English', serif;
+	font-weight: bolder;
+}
+
+p {
+	font-family: Garamond;
+	font-size: 20px;
+}
+
+.global-nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'IM Fell English', serif;
+	font-size: 20px;
+}
+
+nav li {
+	float: left;
+	margin-left: 12em;
+}
+
+li a {
+	display: block;
+	color: #111;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: rgba(155, 194, 185, 0.8);
+}
+
+li a:hover #index {
+	background-color: #FF0D40;
+}
+
+li a:hover {
+	background-color: pink;
+}
+
+ol {
+	list-style-type: circle;
+}
+
+#byline {
+	font-family: Garamond;
+}
+
+img {
+	float: left;
+	margin-right: 2em;
+}
+
